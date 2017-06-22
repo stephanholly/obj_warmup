@@ -44,8 +44,8 @@ for (var key in numbers) {
 console.log(answer);
 
 
-// SQUARE ALL THE VALUES
+// MULTIPLY ALL THE VALUES BY 2
 
 for (var key in numbers) {
-  console.log(Math.pow(numbers[key],2));
+  console.log(numbers[key]*2);
 }
